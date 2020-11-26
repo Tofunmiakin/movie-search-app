@@ -1,0 +1,30 @@
+.form {
+  justify-content: center;
+  display: flex;
+}
+
+.input {
+  width: 80rem;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  width: 10rem;
+  background-color: #04ade0;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  /* transition: background-color 250ms; */
+}
+
+.button:hover {
+  color: white;
+  background-color: #111963;
+}
