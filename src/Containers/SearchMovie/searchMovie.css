@@ -1,11 +1,13 @@
 .form {
+  max-width: 60%;
+  padding-top: 10%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
 
 .input {
-  width: 80rem;
+  width: 50%;
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
   line-height: 2.8rem;
@@ -22,7 +24,6 @@
   border-radius: 20px;
   font-size: 1.4rem;
   cursor: pointer;
-  /* transition: background-color 250ms; */
 }
 
 .button:hover {
@@ -30,24 +31,3 @@
   background-color: #111963;
 }
 
-.card-list{
-  margin-top: 4rem;
-}
-
-.card {
-  padding: 2rem 4rem;
-  border-radius: 10px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25) ;
-  margin-bottom: 2rem;
-  background-color: white;
-}
-
-.card--title{
-  margin-bottom: 0.5rem;
-  font-size: 3.2rem;
-}
-
-.card--image{
-  margin: 0 auto;
-  display: block;
-}

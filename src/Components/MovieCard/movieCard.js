@@ -1,6 +1,7 @@
 import React from 'react';
+import './movieCard.css'
 
-export default function MovieCard({movie}){
+const MovieCard =({movie}) =>{
   return(
     <div className="card" >
     <img className="card--image"
@@ -15,3 +16,5 @@ export default function MovieCard({movie}){
   </div>
   )
 }
+
+export default MovieCard;
