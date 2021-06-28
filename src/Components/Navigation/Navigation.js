@@ -8,7 +8,7 @@ const Navigation = () => {
       <div className='top-right'>
         <a href='#stuff'>stuff</a>
         <a href='#more stuff'>more stuff</a>
-        <a>login</a>
+        <a href ="#login">login</a>
       </div>
     </div>
   );
