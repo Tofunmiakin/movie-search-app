@@ -1,4 +1,4 @@
-
+/* 
 h1 {
   text-align: left;
   font-size: 3rem;
@@ -22,9 +22,9 @@ a{
   padding-right: 10%;
 }
 
-/* p:hover{
+p:hover{
   cursor: pointer;
-} */
+}
 
 .top-right{
   padding-top: 30px;
@@ -33,10 +33,10 @@ a{
   column-gap: 30%;
 }
 
-/* button, h2{
+button, h2{
   display: inline-block;
   vertical-align: middle;
-} */
+}
 
 button {
   width: 10rem;
@@ -47,10 +47,10 @@ button {
   border-radius: 20px;
   font-size: 1.4rem;
   cursor: pointer;
-  /* transition: background-color 250ms; */
+  transition: background-color 250ms;
 }
 
 button:hover {
   color: white;
   background-color: #111963;
-}
+} */
