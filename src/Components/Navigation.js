@@ -108,7 +108,7 @@ export default function Navigation() {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-900' : 'text-gray-500',
-                          'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group bg-white rounded-md inline-flex items-center md:text-xl font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                         )}
                       >
                         <span>Movies</span>
@@ -147,7 +147,7 @@ export default function Navigation() {
                                   <item.icon className="-ml-20 flex-shrink-0 flex-1 h-6 w-6 text-indigo-600" aria-hidden="true" />
 
                                   <div className="flex-1 -ml-20">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                    <p className="md:text-xl font-medium text-gray-900">{item.name}</p>
                                   </div>
                                 </a>
                               ))}
@@ -165,7 +165,7 @@ export default function Navigation() {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-900' : 'text-gray-500',
-                          'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group bg-white rounded-md inline-flex items-center md:text-xl font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                         )}
                       >
                         <span>TV Shows</span>
@@ -204,7 +204,7 @@ export default function Navigation() {
                                   <item.icon className="-ml-20 flex-shrink-0 flex-1 h-6 w-6 text-indigo-600" aria-hidden="true" />
 
                                   <div className="flex-1 -ml-20">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                    <p className="md:text-xl font-medium text-gray-900">{item.name}</p>
                                   </div>
                                 </a>
                               ))}
@@ -217,22 +217,22 @@ export default function Navigation() {
                   )}
                 </Popover>
 
-                <a href="#celebs" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="#celebs" className="md:text-xl font-medium text-gray-500 hover:text-gray-900">
                   Celebs & Awards
                 </a>
 
-                <a href="#about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="#about" className="md:text-xl font-medium text-gray-500 hover:text-gray-900">
                   About
                 </a>
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <a href="#GG" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                <a href="#GG" className="whitespace-nowrap md:text-xl font-medium text-gray-500 hover:text-gray-900">
                   Sign in
                 </a>
 
                 <a
                   href="#GG"
-                  className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm md:text-xl font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Sign up
                 </a>
