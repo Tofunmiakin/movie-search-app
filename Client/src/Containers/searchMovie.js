@@ -19,8 +19,7 @@ const SearchMovie = () => {
   const searchMovie = async (e) => {
     e.preventDefault();
 
-    const url = `https://api.themoviedb.org/3/search/movie?api_key=dff4a91d49ad334e41a5e1c2973fa9d8&
-    language=en-US&query=${query}&include_adult=true`;
+    const url = `https://api.themoviedb.org/3/search/multi?api_key=dff4a91d49ad334e41a5e1c2973fa9d8&language=en-US&query=${query}&page=1&include_adult=false`;
 
     try {
       const res = await fetch(url);
@@ -32,7 +31,7 @@ const SearchMovie = () => {
   }
 
   return (
-    <div className='text-center flex-1'>
+    <div className='text-center'>
       <form className='my-20 py-10 flex flex-row justify-center' onSubmit={searchMovie}>
         <Listbox value={selected} onChange={setSelected} className='mr-10w-36 my-auto '>
           <div>
